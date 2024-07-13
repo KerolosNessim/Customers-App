@@ -13,7 +13,7 @@ const App = () => {
 
   async function getData() {
     const option = {
-      url: "/public/customers.json",
+      url: "/src/customers.json",
       method: "GET",
     };
     let { data } = await axios.request(option);
